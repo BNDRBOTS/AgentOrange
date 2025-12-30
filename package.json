@@ -1,0 +1,23 @@
+{
+  "name": "codebot-orange",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "cbo": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "zod": "^3.22.4",
+    "minimatch": "^9.0.3",
+    "pino": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/minimatch": "^5.1.2",
+    "typescript": "^5.3.3"
+  }
+}
